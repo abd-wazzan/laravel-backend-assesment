@@ -2,7 +2,7 @@
 
 ## Task Management System
 
-Your task is to develop the backend API for a task management system. The system should allow users to perform CRUD operations on tasks and provide functionality to manage tags associated with tasks. Additionally, you need to implement file management, task state logging, email notifications, and write automated tests for your endpoints.
+Your task is to develop the backend API for a task management system. The system should allow users to perform CRUD operations on tasks and provide the functionality to manage tags associated with tasks. Additionally, you need to implement file management, task state logging, and email notifications, and write automated tests for your endpoints.
 
 ### Requirements:
 
@@ -15,7 +15,7 @@ Description (maximum 1500 characters)
 Deadline (datetime)
 Status (pending, in progress, done)
 Tasks can have multiple tags associated with them.
-The user can choose from the existing tags or create new tags that can be used in the future tasks. In list task endpoint we should show the first 30 chars or the description content.
+The user can choose from the existing tags or create new ones for future tasks. In the list task endpoint, we should show the first 30 chars or the description content.
 
 **2. Tag Management**
 
@@ -50,6 +50,9 @@ Utilize Laravel Scribe or a similar tool to generate API documentation for the d
 
 Send an email notification for each task that has a deadline within the next 30 minutes.
 
+**9. Additional Query**
+
+Write a pure SQL query in the readme file that retrieve all tasks that have a pending status, a deadline within the next 24 hours, and at least two associated tags.
 
 
 ### Submission Guidelines:
@@ -75,12 +78,19 @@ Provide clear instructions on how to run and test your code.
 ### Evaluation Criteria:
 
 Code structure, organization, and adherence to Laravel conventions.
+
 Correctness and completeness of the implemented functionality.
+
 Proper usage of Laravel's built-in features and libraries.
+
 Handling of potential error conditions and edge cases.
+
 Clear and well-documented code.
+
 Efficient database queries and consideration for performance.
+
 Overall code quality and best practices.
+
 Feel free to ask any clarifying questions before you begin the assessment.
 
 **Good luck!**
